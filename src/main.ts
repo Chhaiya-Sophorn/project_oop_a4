@@ -1,7 +1,7 @@
-import { Passenger } from "./person/passenger/Passenger";
-let passenger1=new Passenger("Thada","John","Khmer",12);
-console.log(passenger1);
+import { Passenger } from "./person/passenger/passenger";
 
+let passenger = new Passenger('chhaiya', 'ddd', 'khmer', 55);
+console.log(passenger);
 
 
 
