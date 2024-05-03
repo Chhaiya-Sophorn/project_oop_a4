@@ -1,6 +1,8 @@
-export class Airport {
+
+
+export class Airline {
     constructor(private name: string){};
-    getAirportname(): string{
+    getAirlineName(){
         return this.name;
     }
 }

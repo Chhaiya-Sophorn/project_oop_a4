@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Airport = void 0;
-class Airport {
+exports.Airline = void 0;
+class Airline {
     constructor(name) {
         this.name = name;
     }
     ;
-    getAirportname() {
+    getAirlineName() {
         return this.name;
     }
 }
-exports.Airport = Airport;
+exports.Airline = Airline;
